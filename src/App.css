@@ -1,0 +1,131 @@
+.heading {
+  text-align: center;
+  margin-top: 50px;
+  color: #439a47;
+  font-size: 40px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.todo-card {
+  width: 400px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #c6ddc6;
+}
+.card-component {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.todo-card h3 {
+  color: black;
+}
+
+.todo-card p {
+  color: black;
+}
+
+select {
+  padding: 8px;
+  box-sizing: border-box;
+  background-color: rgb(253, 152, 152);
+  border: none;
+}
+
+select:focus {
+  outline: none;
+}
+
+select option {
+  background-color: #fff;
+}
+
+.filter-select select {
+  width: auto;
+}
+
+.filter-select label {
+  margin-right: 10px;
+}
+.edit-delete {
+  display: flex;
+  justify-content: flex-end;
+}
+.edit {
+  width: 100px;
+  margin-right: 10px;
+}
+.delete {
+  width: 100px;
+  background-color: red;
+}
+.delete:hover {
+  background-color: rgb(190, 2, 2);
+}
+.filter-select {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+.main-input {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+input,
+textarea,
+select,
+button {
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  box-sizing: border-box;
+}
+input {
+  width: 400px;
+  height: 35px;
+  border: 2px solid #45a049;
+}
+
+textarea {
+  width: 400px;
+  height: 35px;
+  border: 2px solid #45a049;
+}
+.filter-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 70px;
+  margin-right: 70px;
+}
+
+select {
+  margin-top: 10px;
+}
+
+.todo-card .status-completed {
+  font-weight: bold;
+  color: green;
+}
+
+.todo-card .status-not-completed {
+  color: red;
+  font-weight: bold;
+}
